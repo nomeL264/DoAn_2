@@ -1,0 +1,342 @@
+.car_img{
+    width: 100%;
+    gap:10px;
+    max-height: 560px;
+    padding-bottom: 32px;
+}
+.cover_img {
+}
+.cover_img img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 14px;
+
+}
+.big_img{
+    flex: 2;
+}
+.big_img img {
+    height: 100%;
+}
+.small_img{
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.table{
+    gap: 10px;
+}
+
+.content_detail,.col_1{
+    width: 633px;
+}
+.group_name{
+    justify-content: space-between;
+    align-items: center;
+}
+.detail_name{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    color: var(--black-color);
+}
+.like_share{
+    gap: 20px;
+}
+.like_share a{
+    display: flex;
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+
+}
+
+.desc_infor{
+    font-size: 1.5rem;
+    color: var(--smoke-color);
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.desc_infor .dot{
+    color: var(--black-color);
+}
+.sub_infor,.star,.trip_num{
+    align-items: center;
+
+}
+.detail_tags .car_label{
+    gap:8px;
+    position: unset;
+    flex-direction: row;
+}
+.rent{
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    background-color: rgba(0,0 ,0 ,0.5);
+    gap: 4px;
+}
+.boder_frame{
+    padding: 4px 8px;
+    border-radius: 100px;
+    width: fit-content;
+}
+.line_1{
+    margin: 30px 0;
+}
+/* ----------đặc điểm--------------- */
+.infor_car_desc{
+    margin-bottom: 24px;
+}
+.main_tittle{
+    color: var(--black-color);
+    font-size: 2.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.car_desc_items{
+    justify-content: space-around;
+}
+.car_desc_four_item {
+    gap: 10px;
+}
+.four_item_icon {
+    display: flex;
+    align-items: center;
+}
+.four_item_content{
+    line-height: 1.5;
+}
+.four_item_content .tittle{
+    font-size: 1.7rem;
+    color: var(--smoke-color);
+}
+.four_item_content .content{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+/* --------mô tả xe-------- */
+.car_desc_content p{
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: var(--smoke-color);
+    padding: 10px 10px;
+}
+/* -- ----tiện nghi khác---------- */
+.feature_car ul{
+    height: 24px;
+    padding: 10px 0;
+}
+.feature_car li{
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature_car li img{
+    min-height: 100%;
+    width: 24px;
+    object-fit: contain;
+
+}
+.feature_car li span{
+    font-size: 1.5rem;
+}
+
+/* --------------giấy tờ thuê xe---------- */
+.required_papers{
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+    background-color: #fdf2ed;
+    border-radius: 10px;
+    border-left: 8px solid #f26a2b;
+    padding: 16px 24px;
+}
+.type_item {
+    color: var(--smoke-color);
+    font-size: 1.2rem;
+}
+.type_content{
+    align-items: center;
+color: var(--black-color);
+font-size: 1.5rem;
+}
+.type_content img{
+    width: 24px;
+    height: 24px;
+}
+/* ---------vị trí xe---------- */
+#car_locate{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* -----------chủ xe----------- */
+.profile{
+    gap:20px;
+}
+.profile .avt_img img{
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+}
+.profile_infor{
+    flex-direction: column;
+}
+.profile_infor .name{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.five_star_infor{
+gap:20px;
+padding: 20px;
+background-color:aliceblue;
+border-radius: 20px;
+font-size: 1.4rem;
+line-height: 1.5;
+}
+/* ----side-bar------ */
+.side_bar{
+    flex-direction: column;
+    gap: 20px;
+}
+.insurance,.rent_box,.date_time_form,.drop_down_form {
+    border: 1px solid #e0e0e0;
+    border-radius: 14px;
+    padding: 10px;
+}
+.insurance_cover {
+    gap:10px;
+    text-decoration: none;
+}
+.full_note h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--green-color);
+}
+.full_note  p{
+    font-size: 1.2rem;
+    color: var(--smoke-color);
+}
+.full_note {
+    flex-direction: column;
+    gap: 5px;
+    color: var(--black-color);
+}
+/* -------rent-box------------- */
+.rent_box{
+    background-color: #f7fbff;
+}
+.discount_price  {
+    gap: 15px;
+    align-items: center;
+}
+.discount_price .origin_price{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: var(--smoke-color);
+}
+.discount_num{
+    background-color:#f26a2b;
+    line-height: 1.5;
+    color: var(--white-color);
+    padding: 2px 6px;
+    font-size: 1.3rem;
+    border-radius: 14px;
+}
+.newest_price,.unit{
+    font-size: 3rem;
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.per_day{
+    font-size: 2rem;
+    color: #a6a4a4;
+}
+
+/* ----------form thuê--------- */
+.date_time_form{
+    margin-top: 10px;
+}
+.form_item{
+    flex: 1;
+    gap:10px;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+#line_2{
+    margin: 0 5px;
+}
+.rent_date_time{
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 600;
+}
+.form_item label{
+    font-size: 1.4rem;
+    color: rgb(41, 39, 39);
+}
+/* ----giao nhận xe--------- */
+.drop_down_form{
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.form_locate{
+    align-items: center;
+    justify-content: space-between;
+}
+.locate_text{
+    font-weight: 500;
+}
+.down_icon{
+    align-items: center;
+}
+.rent_box .line_page{
+    margin: 20px 0;
+    color: #a6a4a4;
+}
+.price_container_item{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    justify-content: space-between;
+    color:var(--text-color);
+}
+.price_container_item .cost{
+    font-weight: 500;
+}
+.total_price{
+    font-weight: 700;
+}
+.rent_button{
+    width: 100%;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 20px 0;
+    background-color: var(--green-color);
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rent_button p{
+    color: var(--white-color);
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+.rent_button:hover{
+
+}

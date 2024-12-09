@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.no-unline{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.list_style-none{
+    list-style-type: none; 
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex
+{
+        display: flex !important;
+}
+.d-block{
+ display: flex;
+    opacity: 1; /* Thêm lớp d-flex, thì hiển thị */
+}
+.d-inline{
+    display: inline;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.p-fixed{
+    position: fixed;
+}
+/* ______________container_________ */
+body,html,.body{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.nav_bar{
+    width: 100%;
+    background-color: rgb(78, 203, 78);
+}
+.nav_top{
+    width: 70%;
+    top: 0;
+    margin: 0;
+    color: white !important;
+    align-items: center;
+}
+.nav_top {
+    padding-left: 0;
+}
+.nav_top li{
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: solid ;
+}
+li:hover{
+    background-color: #787878;
+}
+.nav_top li:hover a{
+color: black !important;
+font-size: 16px;
+}
+
+
+.menu_left{
+    height: 100%;
+   
+    width:17.4%;
+}
+.sub_menu{
+    /* display: none; */
+}
+.big_ul  {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(78, 203, 78);
+}
+.big_ul li{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    border-bottom: solid 0.65px #787878;
+}
+.big_ul li a{
+    color: white !important;
+}
+
+.nav_top li a{
+    color: white !important;
+}
+.sub_menu-1,.sub_menu-2{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #999;
+    left: 100%;
+    top: 0;
+}
+.sub_sub_menu{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #999;
+    left: 0;
+    top: 100%;
+}
+.tittle-1:hover .sub_menu-1{
+display: block;
+}
+.tittle-2:hover .sub_menu-2{
+    display: block;
+}
+.sub_menu-2:hover .sub_sub_menu{
+    display: block;
+}
+/* ------------ */
+.nav{
+    margin-bottom: 25px;
+}
+.nav_text {
+    list-style: none;
+    font-size: 15px;
+    align-items: center;
+}
+ul.nav_text {
+    padding-left: 0;
+    margin: 0;
+}
+.nav_text li{
+align-items: center;
+}
+.nav_text li:not(:first-child)::before{
+    display: block;
+    content: '';
+    height: 13px;
+    width: 1.5px;
+    background-color: #000;
+    margin: 0 10px;
+}
+.nav_text a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* _____________container_right_______________*/
+.container_right{
+    margin: 10px ;
+    flex: 1;
+}
+.nav{
+    height: 30px;
+    background-color: #f0f0f0;
+}
+
+/* ___________container_right_top_____________ */
+.container_right_top{
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.find{
+    width: 50%;
+    height: 30px;
+    margin-right: 20px;
+}
+.container_right_top input{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+}
+.show_all{
+    margin: 0 30px 0 10px;
+}
+.show_all select{
+    width: 100%;
+    height: 100%;
+}
+.add_product{
+    width: 20%;
+}
+/* _________table product____________ */
+.container_right table{
+    border-collapse: collapse;
+    font-size: 11px;
+  width: 100%;
+}
+table th:last-child{
+    
+}
+table th{
+font-weight: 300;
+}
+table .p_img{
+    width: 70px;
+    height: 70px;
+}
+/* -------car_infor------------ */

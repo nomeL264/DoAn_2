@@ -1,0 +1,146 @@
+.body_container{
+    display:flex;
+    padding: 40px 0;
+}
+.body_container_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.body_container_right{
+    flex: 3;
+}
+.container_left_tittle{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.container_left_content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 10px;
+
+}
+.container_left_content:hover{
+    background-color:rgb(246, 252, 246);
+}
+.container_left_content .line{
+    background-color: var(--green-color);
+    width: 2px;
+}
+
+/* -------------body_right--------------- */
+.account_infor{
+    background-color: var(--white-color);
+    border-radius: 12px;
+    padding: 20px;
+}
+.infor_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_left
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.head_left_tittle{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.round{
+    cursor: pointer;
+    border: 1px solid var(--boder-color);
+    padding: 3px 6px;
+    border-radius: 100%;
+}
+.head_right{
+    width: max-content;
+}
+.total_trip{
+    display: flex;
+    height: 50px;
+    gap: 5px;
+    border: 1px solid var(--boder-color);
+    border-radius: 8px;
+    padding: 10px 20px;
+    align-items: center;
+}
+.total_trip .number{
+font-size: 3rem;
+font-weight: 700;
+color: var(--green-color);
+}
+.total_trip span{
+    font-size: 1.5rem;
+    color: var(--smoke-color);
+    line-height: 1.5;
+    text-align: end;
+}
+
+/* --------body-left---------- */
+.infor_body{
+    margin-top: 30px;
+    display: flex;
+    gap:36px
+}
+.infor_body_left{
+    flex: 1;
+}
+.infor_body_right{
+    flex: 3;
+}
+.avt_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+.avt_img img{
+    width: 100%;
+}
+.acc_name,.grid_text,.date_of_birth,.gender{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.grid_tittle{
+    font-size: 1.5rem;
+    color: var(--smoke-color);
+}
+.infor_body_right{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.top_box{
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+.top_box,.bottom_box{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.top_box_infor,.bottom_box_grid{
+    display: flex;
+    justify-content: space-between;
+}
+.grid_text{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}

@@ -1,0 +1,329 @@
+/*------- body---------*/
+/* background_intro*/
+.intro_content {
+    position: relative;
+}
+
+.bg_landing img {
+    width: 100%;
+    height: 560px;
+}
+
+.bg_content {
+    color: var(--white-color);
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 30%;
+    left: 15%;
+    gap: 24px;
+}
+
+.un_line {
+    border: 1px solid var(--white-color);
+    width: 280px;
+    margin: 0 auto;
+}
+
+.bg_content h1 {
+    max-width: 600px;
+    font-size: 6rem;
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.bg_content h6 {
+    font-size: 2rem;
+    margin: 0 24px 24px;
+}
+
+.option {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.op_item {
+    display: flex;
+    width: 180px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--text-color);
+    padding: 16px 8px;
+    background-color: aliceblue;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #c6c6c6;
+}
+
+.op_item:first-child {
+    border-radius: 16px 0 0 0;
+    background-color: #5fcf86;
+    color: var(--white-color);
+}
+
+#last-child {
+    border-radius: 0 16px 0 0;
+}
+
+.search {
+    width: 90%;
+    background-color: var(--white-color);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    z-index: 2;
+}
+
+.search_item {
+    display: flex;
+    width: 100%;
+    font-size: 1.7rem;
+    line-height: 1.75;
+    align-items: start;
+    gap: 8px;
+}
+
+.search_item svg {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.search_item_content {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search_item_content h4 {
+    color: #767676;
+    font-weight: 400;
+}
+
+.search_button {
+    width: 82px;
+    height: auto;
+    background-color: var(--green-color);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.search_button a {
+    margin: auto;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/*--------Khuyến mãi-----*/
+.discount {
+    position: relative;
+    padding: 200px 0 80px;
+    line-height: 1.5;
+    text-align: center;
+    z-index: 1;
+}
+
+.tittle_2 {
+    margin-bottom: 40px;
+}
+
+.sub_tittle_1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.sub_tittle_2 {
+    font-size: 2rem;
+}
+
+.discount_content {
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount_content img {
+    width: auto;
+    height: 204px;
+    border-radius: 14px;
+}
+
+/*--------------------- car_item----------------*/
+.for_u {
+    padding-top: 60px;
+}
+
+.for_u_text {
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cars {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.car {
+    padding: 16px;
+    background-color: var(--white-color);
+    border-radius: 14px;
+    flex-direction: column;
+    gap: 32px;
+    width: 28%;
+    text-decoration: none;
+
+}
+
+.car_overlay {
+    position: relative;
+}
+
+.car_label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.boder_frame {
+    padding: 4px 8px;
+    border-radius: 100px;
+    width: fit-content;
+}
+
+.rent {
+    display: flex;
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 4px;
+}
+
+.car_img img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.discount_frame {
+    position: absolute;
+    background-color: #f26a2b;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    right: 16px;
+    bottom: -12px;
+    color: var(--white-color);
+}
+
+.tag_text {
+    background-color: #dff5e7;
+    color: var(--black-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 8px 8px 0;
+}
+
+.desc_name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    color: var(--black-color);
+}
+
+.sub_infor {
+    color: var(--smoke-color);
+    font-size: 1.2rem;
+}
+
+.desc_addr_content {
+    align-items: center;
+    gap: 4px;
+}
+
+.desc_line {
+    margin: 14px 0;
+}
+
+.desc_infor_price {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc_infor,
+.star,
+.trip_num {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    padding: 0 3px;
+}
+
+.price_origin {
+    text-decoration: line-through;
+}
+
+.discount_price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5fcf86;
+}
+
+/* Hướng dẫn thuê xe  */
+.car_instruc {
+    padding: 100px 0 80px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.instruc_step {
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.step {
+    flex: 1;
+}
+
+.step_img img {
+    width: 201px;
+    height: 200px;
+}
+
+.step_content {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.step_num {
+    margin-right: 8px;
+    color: var(--green-color);
+}
+
+.step_text {
+    text-align: start;
+}
+
+/* --------footer---------- */

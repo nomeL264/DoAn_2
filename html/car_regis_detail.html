@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Base.css">
+    <link rel="stylesheet" href="/css/car_regis_detail.css">
+    <link rel="stylesheet" href="/css/car_regis.css">
+    <script src="/js/base.js"></script>
+</head>
+
+<body>
+    <div class="b_container">
+        <div class="header d_flex">
+            <div class="logo_mio">
+                <a href="/html/Trangchu.html" class="full_logo">
+                    <img src="../img/Trangchu_img/logo-full.ea382559.png" alt="" id="logo_mioto">
+                </a>
+            </div>
+            <div class="head_right d_flex">
+                <div class="head_right_1 d_flex">
+                    <a class="item">Về Mioto</a>
+                    <a class="item">Trở thành chủ xe</a>
+                    <a class="item">Chuyến của tôi</a>
+                    <div class="line"></div>
+                </div>
+                <div class="head_right_2 d_flex">
+                    <div class="notifi">
+                        <a href="javascript:void(0);" id="tb_icon">
+                            <img src="../img/Trangchu_img/thongbao_img.png" alt="" id="notifi_img" class="center item">
+                        </a>
+                        <div class="drop_menu " id="menu_drop">
+                            <div class="notifi_tittle">
+                                <p>Thông báo</p>
+                            </div>
+                            <div class="line_page"></div>
+                            <div class="notifi_content d_flex">
+                                <div class="notifi_icon">
+                                    <img src="../img/Trangchu_img/announce.png" alt="">
+                                </div>
+                                <div class="notifi_detail">
+                                    <div class="detail_title">
+                                        <p>Welcome to Mioto</p>
+                                    </div>
+                                    <div class="detail_content text-size">
+                                        <p>Chào mừng bạn tham gia cộng đồng Mioto, bấm vào đây để xem những kinh nghiệm
+                                            thuê xe hữu ích.</p>
+                                    </div>
+                                    <div class="detail_time">2 tháng trước</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="../img/Trangchu_img/avatar-5.png" alt="" id="avt_img" class="item">
+                    <h2 class="item">Lemon</h2>
+                    <img src="../img/Trangchu_img/arrow-down.d8b3609e.svg" alt="" id="arrow_down_img" class="item">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------body-------------->
+    <div class="body">
+        <div class="regis_tittle d_flex">
+            <div class="back d_flex">
+                <div class="back_svg">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.0531 16.0003L19.7731 11.2803C20.0214 11.0304 20.1608 10.6925 20.1608 10.3403C20.1608 9.98801 20.0214 9.65007 19.7731 9.40026C19.6491 9.27529 19.5017 9.17609 19.3392 9.1084C19.1767 9.04071 19.0024 9.00586 18.8264 9.00586C18.6504 9.00586 18.4761 9.04071 18.3137 9.1084C18.1512 9.17609 18.0037 9.27529 17.8798 9.40026L12.2264 15.0536C12.1015 15.1775 12.0023 15.325 11.9346 15.4875C11.8669 15.65 11.832 15.8242 11.832 16.0003C11.832 16.1763 11.8669 16.3505 11.9346 16.513C12.0023 16.6755 12.1015 16.823 12.2264 16.9469L17.8798 22.6669C18.0043 22.7905 18.1521 22.8883 18.3146 22.9546C18.477 23.021 18.651 23.0546 18.8264 23.0536C19.0019 23.0546 19.1759 23.021 19.3383 22.9546C19.5008 22.8883 19.6485 22.7905 19.7731 22.6669C20.0214 22.4171 20.1608 22.0792 20.1608 21.7269C20.1608 21.3747 20.0214 21.0367 19.7731 20.7869L15.0531 16.0003Z"
+                            fill="black">
+                        </path>
+                    </svg>
+                </div>
+                <a href="/html/car_regis.html">Quay lại</a>
+            </div>
+            <h2 class="tittle d_flex">ĐĂNG KÝ XE</h2>
+        </div>
+        <div class="regis_form">
+            <div class="form_content">
+                <div class="form_top">
+                    <a href="/html/cars.html" id="step active" class="switch_btn ">
+                        <div class="btn ">
+                            <span class="btn_1">1</span>
+                        </div>
+                        <p class="btn_tittle tittle_1">Thông tin </p>
+                    </a>
+                    <a href="" id="" class="switch_btn">
+                        <div class="btn  ">
+                            <span class="btn_2" id="num_2">2</span>
+                        </div>
+                        <p class="btn_tittle tittle_2" id="tittle_2">Cho thuê</p>
+                    </a>
+                    <div id="" class="switch_btn btn_end ">
+                        <div class="btn ">
+                            <span class="btn_3" id="num_3">4</span>
+                        </div>
+                        <p class="btn_tittle tittle_3 " id="tittle_3">Hình ảnh</p>
+                    </div>
+                </div>
+                <div id="row active" class="form_bottom_1">
+                    <div class="car_license_box box">
+                        <div class="box_tittle">Biển số xe </div>
+                        <div class="box_note">*Lưu ý: Biển số sẽ không thể thay đổi sau khi đăng ký.
+                        </div>
+                        <input type="text" name="" id="license_txb" class="input_text">
+                    </div>
+                    <div class="basic_infor_box box">
+                        <div class="box_tittle">Thông tin cơ bản</div>
+                        <div class="box_note">*Lưu ý: Các thông tin cơ bản sẽ không thể thay đổi sau khi đăng ký.
+                        </div>
+                        <div class="car_infor">
+                            <div class="tb_1_col_1">
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Hãng xe</div>
+                                    <select class="car_brand">
+                                        <option disabled selected>Chọn hãng xe</option>
+                                        <option value="1">Audi</option>
+                                        <option value="27">Baic</option>
+                                        <option value="12">Bentley</option>
+                                        <option value="2">BMW</option>
+                                        <option value="44">Brilliance</option>
+                                        <option value="35">Buick</option>
+                                        <option value="3">Chevrolet</option>
+                                        <option value="51">Chrysler</option>
+                                        <option value="17">Daewoo</option>
+                                        <option value="41">Daihatsu</option>
+                                        <option value="40">Dongfeng</option>
+                                        <option value="50">Fairy</option>
+                                        <option value="30">Fiat</option>
+                                        <option value="4">Ford</option>
+                                        <option value="37">Geely</option>
+                                        <option value="31">Haima</option>
+                                        <option value="53">Haval</option>
+                                        <option value="10">Honda</option>
+                                        <option value="11">Hyundai</option>
+                                        <option value="24">Isuzu</option>
+                                        <option value="34">Jaguar</option>
+                                        <option value="46">Kenbo</option>
+                                        <option value="5">Kia</option>
+                                        <option value="43">Land Rover</option>
+                                        <option value="13">Lexus</option>
+                                        <option value="20">Luxgen</option>
+                                        <option value="6">Mazda</option>
+                                        <option value="7">Mercedes</option>
+                                        <option value="8">Mitsubishi</option>
+                                        <option value="39">Morris Garages</option>
+                                        <option value="14">Nissan</option>
+                                        <option value="25">Peugeot</option>
+                                        <option value="15">Porsche</option>
+                                        <option value="16">Renault</option>
+                                        <option value="33">Riich</option>
+                                        <option value="47">Samsung</option>
+                                        <option value="52">Skoda</option>
+                                        <option value="26">SsangYong</option>
+                                        <option value="32">Subaru</option>
+                                        <option value="19">Suzuki</option>
+                                        <option value="42">Tobe</option>
+                                        <option value="9">Toyota</option>
+                                        <option value="22">UAZ</option>
+                                        <option value="29">Vinfast</option>
+                                        <option value="18">Volkswagen</option>
+                                        <option value="45">Volvo</option>
+                                        <option value="48">Wuling</option>
+                                        <option value="23">Zotye</option>
+                                    </select>
+                                </div>
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Số ghế</div>
+                                    <select class="seat_num">
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                    </select>
+                                </div>
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Truyền động</div>
+                                    <select name="" id="" class="transmision">
+                                        <option value="1">Số tự động</option>
+                                        <option value="2">Số sàn</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="tb_1_col_2">
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Mẫu xe</div>
+                                    <select class="model_car">
+                                        <option disabled selected>Chọn mẫu xe</option>
+                                        <option value="455">BMW 218I GT LCI</option>
+                                        <option value="2">BMW 320i </option>
+                                        <option value="359">BMW 325I</option>
+                                        <option value="73">BMW 335I SPORT</option>
+                                        <option value="367">BMW 420I CABRIOLET</option>
+                                        <option value="3">BMW 520i</option>
+                                        <option value="72">BMW 523I</option>
+                                        <option value="470">BMW 528i</option>
+                                        <option value="189">BMW 530i</option>
+                                        <option value="663">BMW 535I (AT)</option>
+                                        <option value="279">BMW 730Li</option>
+                                        <option value="280">BMW 740Li</option>
+                                        <option value="651">BMW 750LI (AT)</option>
+                                        <option value="70">BMW 760LI</option>
+                                        <option value="71">BMW I8</option>
+                                        <option value="457">BMW X1</option>
+                                        <option value="665">BMW X4 (AT)</option>
+                                        <option value="94">BMW X5</option>
+                                        <option value="217">BMW X6</option>
+                                        <option value="74">BMW Z4 SPORT</option>
+                                    </select>
+                                </div>
+
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Năm sản xuất</div>
+                                    <select class="year">
+                                        <option value="2024">2024</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2005">2005</option>
+                                    </select>
+                                </div>
+                                <div class="small_box">
+                                    <div class="small_box_tittle">Loại nhiên liệu</div>
+                                    <select class="fuel_type">
+                                        <option value="0">Tất cả</option>
+                                        <option value="1">Xăng</option>
+                                        <option value="2">Dầu diesel</option>
+                                        <option value="3">Điện</option>
+                                        <option value="4">Xăng điện</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="fuel_consum_box box">
+                        <div class="box_tittle">Mức tiêu thụ nhiên liệu</div>
+                        <div class="note">Số lít nhiên liệu cho quãng đường 100km.
+                        </div>
+                        <input type="text" name="" id="" class="input_text">
+                    </div>
+                    <div class="description_box box">
+                        <div class="box_tittle">Mô tả</div>
+                        <textarea id="" class="car_desc" placeholder="Huyndai Elantra số tự động đăng ký tháng 06/2018. Xe gia đình mới đẹp, nội thất nguyên bản, sạch sẽ, bảo dưỡng thường xuyên, rửa xe miễn phí cho khách. Xe rộng rãi, an toàn, tiện nghi, phù hợp cho gia đình du lịch. Xe trang bị hệ thống cảm biến lùi, gạt mưa tự động, đèn pha tự động, camera hành trình, hệ thống giải trí AV cùng nhiều tiện nghi khác..."></textarea>
+                    </div>
+                    <div class="features box">
+                        <div class="box_tittle">Tính năng</div>
+                        <div class="feature_content">
+                            <div class="col_1">
+                                <div class="for_ckb">
+                                    <input type="checkbox" name="" id="map" value="map">
+                                    <label for="map">
+                                        <div class="feature">
+                                            <div class="icon">
+                                                <img src="/img/features_car/map-v2.png" alt="">
+                                            </div>
+                                            <div class="icon_name">Bản đồ</div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="pc" value="pc">
+                                    <label for="pc">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/parking_camera-v2.png" alt="">
+                                        </div>
+                                        <div class="icon_name">Camera cập lề</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="tpms" value="tpms">
+                                    <label for="tpms">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/tpms-v2.png" alt="">
+                                        </div>
+                                        <div class="icon_name">Cảm biến lốp</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="sr" value="sr">
+                                    <label for="sr">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/sunroof-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Cửa sổ trời</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="usb" value="usb">
+                                    <label for="usb">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/usb-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Khe cắm USB</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="bn" value="bn">
+                                    <label for="bn">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/bonnet-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Nắp thùng xe bán tải</div>
+                                    </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col_2">
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="bt" value="bt">
+                                    <label for="bt">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/bluetooth-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Bluetooth</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="dc" value="dc">
+                                    <label for="dc">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/dash_camera-v2.png" alt="">
+                                        </div>
+                                        <div class="icon_name">Camera hành trình</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="gps" value="gps">
+                                    <label for="gps">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/gps-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Định vị GPS</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="st" value="st">
+                                    <label for="st">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/spare_tire-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Lốp dự phòng</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="etc" value="etc">
+                                    <label for="etc">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/etc-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">ETC</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="is" value="is">
+                                    <label for="is">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/impact_sensor-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Cảm biến va chạm</div>
+                                    </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col_3">
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="c360" value="c360">
+                                    <label for="c360">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/360_camera-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Camera 360</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="rc" value="rc">
+                                    <label for="rc">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/reverse_camera-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Camera lùi</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="hu" value="hu">
+                                    <label for="hu">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/head_up-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Cảnh báo tốc độ</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="bs" value="bs">
+                                    <label for="bs">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/babyseat-v2.png" alt="">
+        
+                                        </div>
+                                        <div class="icon_name">Ghế trẻ em</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="dvd" value="dvd">
+                                    <label for="dvd">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/dvd-v2.png" alt="">
+                                        </div>
+                                        <div class="icon_name">Màn hình DVD</div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <div class="for_ckb">
+                                      <input type="checkbox" name="" id="ab" value="ab">
+                                    <label for="ab">
+                                    <div class="feature">
+                                        <div class="icon">
+                                            <img src="/img/features_car/airbags-v2.png" alt="">
+                                        </div>
+                                        <div class="icon_name">Túi khí an toàn</div>
+                                    </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----form_2------ -->
+                 <div id="row" class="form_bottom_2 " style="display: none;">
+                    <div class="r_price_box box">
+                        <div class="box_tittle">Đơn giá thuê mặc định</div>
+                        <div class="box_note">
+                            <p style="color:#ced4da ;">Đơn giá áp dụng cho tất cả các ngày. 
+                                Bạn có thuể tuỳ chỉnh giá khác cho các ngày đặc biệt (cuối tuần, lễ, tết...) trong mục quản lý xe sau khi đăng ký.
+                            </p >
+                        </div>
+                        <div class="price_small_box">
+                            <input type="text" name="" id="r_price" class="input_text">
+                            <p>K</p>
+                        </div>
+                    </div>
+                    <div class="discount_box box">
+                        <div class="box_tittle">Giảm giá</div>
+                        <div class="box_note ">
+                        <p style="color: black;">
+                            Giảm giá thuê tuần (% trên đơn giá)
+                        </p></div>
+                        <div class="price_small_box">
+                            <input type="text" name="" id="discount_num" class="input_text">
+                            <p>%</p>
+                        </div>
+                    </div>
+                    <div class="car_location_box box">
+                        <div class="box_tittle">Địa chỉ xe</div>
+                        <input type="text" name="" id="loaction_default" placeholder="Địa chỉ mặc định giao nhận xe">
+                    </div>
+                    <div class="terms_box box">
+                        <div class="box_tittle">Điều khoản thuê xe</div>
+                        <div class="box_note">
+                            <p style="color: #ced4da ;">Ghi rõ các yêu cầu để khách có thể thuê xe.</p>
+                        </div>
+                        <textarea name="" id="terms" placeholder="Không sử dụng xe vào mục đích phi pháp. Lái xe cẩn thận, giữ xe sạch sẽ, trả xe đúng giờ. Phụ thu 500k nếu hút thuốc lá trong xe."></textarea>
+                    </div>
+                 </div>
+                 <div id="row" class="form_bottom_3" style="display: none;">
+                    <div class="img_box box">
+                        <div class="box_tittle">Hình ảnh</div>
+                        <div class="box_note">
+                            <p style="color: black;">Đăng nhiều hình ở các góc độ khác nhau để tăng thông tin cho xe của bạn.</p>
+                        </div>
+                        <div class="upload_box">
+                                <input type="file" id="upload" accept="image/*" multiple>
+                        </div>
+                    </div>
+                 </div>
+                <div class="button">
+                    <div id="prev" class="btn_back two_btn">
+                        <p>Quay lại</p>
+                    </div>
+                    <div id="next" class="btn_next two_btn"><p>Kế tiếp</p></div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="form_success">
+        <div class="success_box">
+            <div class="big_tittle">Đăng kí thành công</div>
+            <p class="respone">Đơn đăng kí xe của bạn đã chuyển trạng thái thành đợi xét duyệt!</p>
+        </div>
+    </div>
+    </div>
+    <!-- ------------footer--------- -->
+    <div class="footer">
+        <div class="line_page f_line"></div>
+        <div class="f_container d_flex">
+            <div class="f_infor">
+                <div class="logo_img">
+                    <img src="../img/Trangchu_img/logo-full.ea382559.png" alt="">
+                </div>
+                <div class="phone_mail d_flex">
+                    <a href="tel:19009217" class="f_item">
+                        <p class="main">1900 9217</p>
+                        <p>Tổng đài hỗ trợ: 7AM - 10PM</p>
+                    </a>
+                    <a href="Mailto:contact@mioto.vn" class="f_item">
+                        <p class="main">contact@mioto.vn</p>
+                        <p>Gửi mail cho Mioto</p>
+                    </a>
+                </div>
+                <div class="contact d_flex">
+                    <a class="wrap-svg" target="_blank" href="https://www.facebook.com/mioto.vn/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.94 21.2501V14.1601H9.5V11.4301H11.94V9.43012C11.94 8.31012 12.22 7.47012 12.86 6.83012C13.5 6.19012 14.34 5.87012 15.42 5.87012C16.22 5.87012 16.94 5.91012 17.5 5.99012V8.39012H16.06C15.54 8.39012 15.18 8.51012 14.98 8.75012C14.82 8.99012 14.74 9.31012 14.74 9.71012V11.4301H17.51L17.15 14.1601H14.75V21.2501"
+                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M17.14 21.25H6.86C4.59 21.25 2.75 19.41 2.75 17.14V6.86C2.75 4.59 4.59 2.75 6.86 2.75H17.14C19.41 2.75 21.25 4.59 21.25 6.86V17.14C21.25 19.41 19.41 21.25 17.14 21.25Z"
+                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></a>
+                    <a class="wrap-svg" target="_blank" href="https://www.tiktok.com/@miotovn"><svg width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.75999 12.69C8.27999 12.69 7.04999 13.92 7.04999 15.4C7.04999 16.88 8.27999 18.11 9.75999 18.11C11.24 18.11 12.47 16.88 12.47 15.4V2.75H15.65C15.65 2.79 15.65 2.79 15.65 2.82C15.65 3.07 15.65 3.33 15.72 3.58C15.94 4.77 16.66 5.82 17.67 6.47C18.36 6.94 19.19 7.19 20.05 7.19C20.05 7.19 20.05 7.19 20.09 7.19V10.33H20.05C18.39 10.33 16.87 9.82 15.64 8.92V15.39C15.64 18.64 13 21.24 9.74999 21.24C6.49999 21.24 3.89999 18.64 3.89999 15.39C3.89999 12.14 6.49999 9.5 9.74999 9.5V12.69H9.75999Z"
+                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></a>
+                    <a class="wrap-svg" target="_blank" href="https://zalo.me/1377158618768832739"><svg width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="path-1-outside-1_6394_301594" maskUnits="userSpaceOnUse" x="0.919998" y="0.919922"
+                                width="22" height="22" fill="black">
+                                <rect fill="white" x="0.919998" y="0.919922" width="22" height="22"></rect>
+                                <path
+                                    d="M4.32 1.91992C3.00023 1.91992 1.92 3.00015 1.92 4.31992V19.6799C1.92 20.9997 3.00023 22.0799 4.32 22.0799H19.68C20.999822.0799 22.08 20.9997 22.08 19.6799V4.31992C22.08 3.00015 20.9998 1.91992 19.68 1.91992H4.32ZM4.32 2.87992H7.47656C5.81666 4.60701 4.8 6.87526 4.8 9.35992C4.8 11.9334 5.88871 14.2792 7.65562 16.0265C7.5914 15.9653 7.67454 16.0717 7.68281 16.2599C7.69134 16.4542 7.66209 16.7212 7.58344 16.9855C7.42613 17.5143 7.09711 18.0017 6.56812 18.178C6.46765 18.2115 6.38107 18.2773 6.32187 18.3651C6.26266 18.4529 6.23416 18.5578 6.24079 18.6635C6.24742 18.7692 6.28882 18.8698 6.35854 18.9495C6.42826 19.0292 6.52238 19.0836 6.62625 19.1043C7.95091 19.3692 8.8879 18.9704 9.57844 18.6534C10.269 18.3363 10.6421 18.123 11.34 18.4049L11.3456 18.4068C12.6523 18.9176 14.091 19.1999 15.6 19.1999C17.6147 19.1999 19.503 18.6965 21.12 17.819V19.6799C21.12 20.4808 20.4809 21.1199 19.68 21.1199H4.32C3.51913 21.1199 2.88 20.4808 2.88 19.6799V4.31992C2.88 3.51905 3.51913 2.87992 4.32 2.87992ZM8.87812 2.87992H19.68C20.4809 2.87992 21.12 3.51905 21.12 4.31992V16.7062C19.5489 17.67 17.6518 18.2399 15.6 18.2399C14.2129 18.2399 12.8945 17.9804 11.7 17.5143C10.6857 17.1046 9.85955 17.4677 9.17812 17.7805C8.80908 17.95 8.44498 18.0908 8.03344 18.1687C8.23704 17.8784 8.4112 17.5683 8.50312 17.2593C8.61173 16.8942 8.65588 16.5367 8.64187 16.2177C8.62791 15.8998 8.60013 15.6087 8.33156 15.3449L8.33062 15.344C6.72812 13.7593 5.76 11.6633 5.76 9.35992C5.76 6.80508 6.95336 4.50598 8.87812 2.87992ZM15.8325 7.19336C15.7054 7.19535 15.5842 7.2477 15.4956 7.33892C15.407 7.43014 15.3583 7.55278 15.36 7.67992V11.9999C15.3591 12.0635 15.3708 12.1267 15.3946 12.1857C15.4183 12.2447 15.4535 12.2984 15.4982 12.3437C15.5428 12.389 15.596 12.425 15.6547 12.4496C15.7134 12.4741 15.7764 12.4868 15.84 12.4868C15.9036 12.4868 15.9666 12.4741 16.0253 12.4496C16.084 12.425 16.1372 12.389 16.1818 12.3437C16.2265 12.2984 16.2617 12.2447 16.2854 12.1857C16.3091 12.1267 16.3209 12.0635 16.32 11.9999V7.67992C16.3209 7.6157 16.3089 7.55196 16.2847 7.49247C16.2605 7.43298 16.2246 7.37895 16.1791 7.33358C16.1337 7.28821 16.0796 7.25242 16.02 7.22833C15.9605 7.20425 15.8967 7.19236 15.8325 7.19336ZM8.64 7.67992C8.57639 7.67902 8.51324 7.69077 8.45422 7.71449C8.39519 7.73821 8.34147 7.77342 8.29617 7.81808C8.25088 7.86275 8.21491 7.91597 8.19036 7.97465C8.1658 8.03333 8.15316 8.09631 8.15316 8.15992C8.15316 8.22353 8.1658 8.28651 8.19036 8.3452C8.21491 8.40388 8.25088 8.4571 8.29617 8.50176C8.34147 8.54642 8.39519 8.58163 8.45422 8.60535C8.51324 8.62907 8.57639 8.64082 8.64 8.63992H10.1747L8.23312 11.7459C8.18782 11.8185 8.16277 11.9019 8.16057 11.9875C8.15837 12.0731 8.17909 12.1577 8.22059 12.2326C8.2621 12.3075 8.32287 12.3699 8.39661 12.4134C8.47036 12.4569 8.55439 12.4798 8.64 12.4799H11.04C11.1036 12.4808 11.1668 12.4691 11.2258 12.4454C11.2848 12.4216 11.3385 12.3864 11.3838 12.3418C11.4291 12.2971 11.4651 12.2439 11.4896 12.1852C11.5142 12.1265 11.5268 12.0635 11.5268 11.9999C11.5268 11.9363 11.5142 11.8733 11.4896 11.8146C11.4651 11.756 11.4291 11.7027 11.3838 11.6581C11.3385 11.6134 11.2848 11.5782 11.2258 11.5545C11.1668 11.5308 11.1036 11.519 11.04 11.5199H9.50531L11.4469 8.41398C11.4922 8.34134 11.5172 8.25791 11.5194 8.17232C11.5216 8.08674 11.5009 8.00213 11.4594 7.92725C11.4179 7.85237 11.3571 7.78995 11.2834 7.74647C11.2096 7.70298 11.1256 7.68 11.04 7.67992H8.64ZM14.3925 9.11336C14.3138 9.11475 14.2366 9.13549 14.1677 9.17374C14.0989 9.212 14.0406 9.2666 13.9978 9.33273C13.759 9.20158 13.4897 9.11992 13.2 9.11992C12.2778 9.11992 11.52 9.87777 11.52 10.7999C11.52 11.7221 12.2778 12.4799 13.2 12.4799C13.4894 12.4799 13.7582 12.398 13.9969 12.2671C14.0534 12.3546 14.1369 12.4213 14.2347 12.4572C14.3325 12.493 14.4393 12.4961 14.539 12.4659C14.6387 12.4358 14.7259 12.374 14.7874 12.2899C14.8489 12.2059 14.8814 12.1041 14.88 11.9999V10.7999V9.59992C14.8809 9.5357 14.8689 9.47196 14.8447 9.41247C14.8205 9.35298 14.7846 9.29895 14.7391 9.25358C14.6937 9.20821 14.6396 9.17242 14.58 9.14833C14.5205 9.12425 14.4567 9.11236 14.3925 9.11336ZM18.48 9.11992C17.5578 9.11992 16.8 9.87777 16.8 10.7999C16.8 11.7221 17.5578 12.4799 18.48 12.4799C19.4022 12.4799 20.16 11.7221 20.16 10.7999C20.16 9.87777 19.4022 9.11992 18.48 9.11992ZM13.2 10.0799C13.6033 10.0799 13.92 10.3966 13.92 10.7999C13.92 11.2033 13.6033 11.5199 13.2 11.5199C12.7967 11.5199 12.48 11.2033 12.48 10.7999C12.48 10.3966 12.7967 10.0799 13.2 10.0799ZM18.48 10.0799C18.8833 10.0799 19.2 10.3966 19.2 10.7999C19.2 11.2033 18.8833 11.5199 18.48 11.5199C18.0767 11.5199 17.76 11.2033 17.76 10.7999C17.76 10.3966 18.0767 10.0799 18.48 10.0799Z">
+                                </path>
+                            </mask>
+                            <path
+                                d="M4.32 1.91992C3.00023 1.91992 1.92 3.00015 1.92 4.31992V19.6799C1.92 20.9997 3.00023 22.0799 4.32 22.0799H19.68C20.9998 22.0799 22.08 20.9997 22.08 19.6799V4.31992C22.08 3.00015 20.9998 1.91992 19.68 1.91992H4.32ZM4.32 2.87992H7.47656C5.81666 4.60701 4.8 6.87526 4.8 9.35992C4.8 11.9334 5.88871 14.2792 7.65562 16.0265C7.5914 15.9653 7.67454 16.0717 7.68281 16.2599C7.69134 16.4542 7.66209 16.7212 7.58344 16.9855C7.42613 17.5143 7.09711 18.0017 6.56812 18.178C6.46765 18.2115 6.38107 18.2773 6.32187 18.3651C6.26266 18.4529 6.23416 18.5578 6.24079 18.6635C6.24742 18.7692 6.28882 18.8698 6.35854 18.9495C6.42826 19.0292 6.52238 19.0836 6.62625 19.1043C7.95091 19.3692 8.8879 18.9704 9.57844 18.6534C10.269 18.3363 10.6421 18.123 11.34 18.4049L11.3456 18.4068C12.6523 18.9176 14.091 19.1999 15.6 19.1999C17.6147 19.1999 19.503 18.6965 21.12 17.819V19.6799C21.12 20.4808 20.4809 21.1199 19.68 21.1199H4.32C3.51913 21.1199 2.88 20.4808 2.88 19.6799V4.31992C2.88 3.51905 3.51913 2.87992 4.32 2.87992ZM8.87812 2.87992H19.68C20.4809 2.87992 21.12 3.51905 21.12 4.31992V16.7062C19.5489 17.67 17.6518 18.2399 15.6 18.2399C14.2129 18.2399 12.8945 17.9804 11.7 17.5143C10.6857 17.1046 9.85955 17.4677 9.17812 17.7805C8.80908 17.95 8.44498 18.0908 8.03344 18.1687C8.23704 17.8784 8.4112 17.5683 8.50312 17.2593C8.61173 16.8942 8.65588 16.5367 8.64187 16.2177C8.62791 15.8998 8.60013 15.6087 8.33156 15.3449L8.33062 15.344C6.72812 13.7593 5.76 11.6633 5.76 9.35992C5.76 6.80508 6.95336 4.50598 8.87812 2.87992ZM15.8325 7.19336C15.7054 7.19535 15.5842 7.2477 15.4956 7.33892C15.407 7.43014 15.3583 7.55278 15.36 7.67992V11.9999C15.3591 12.0635 15.3708 12.1267 15.3946 12.1857C15.4183 12.2447 15.4535 12.2984 15.4982 12.3437C15.5428 12.389 15.596 12.425 15.6547 12.4496C15.7134 12.4741 15.7764 12.4868 15.84 12.4868C15.9036 12.4868 15.9666 12.4741 16.0253 12.4496C16.084 12.425 16.1372 12.389 16.1818 12.3437C16.2265 12.2984 16.2617 12.2447 16.2854 12.1857C16.3091 12.1267 16.3209 12.0635 16.32 11.9999V7.67992C16.3209 7.6157 16.3089 7.55196 16.2847 7.49247C16.2605 7.43298 16.2246 7.37895 16.1791 7.33358C16.1337 7.28821 16.0796 7.25242 16.02 7.22833C15.9605 7.20425 15.8967 7.19236 15.8325 7.19336ZM8.64 7.67992C8.57639 7.67902 8.51324 7.69077 8.45422 7.71449C8.39519 7.73821 8.34147 7.77342 8.29617 7.81808C8.25088 7.86275 8.21491 7.91597 8.19036 7.97465C8.1658 8.03333 8.15316 8.09631 8.15316 8.15992C8.15316 8.22353 8.1658 8.28651 8.19036 8.3452C8.21491 8.40388 8.25088 8.4571 8.29617 8.50176C8.34147 8.54642 8.39519 8.58163 8.45422 8.60535C8.51324 8.62907 8.57639 8.64082 8.64 8.63992H10.1747L8.23312 11.7459C8.18782 11.8185 8.16277 11.9019 8.16057 11.9875C8.15837 12.0731 8.17909 12.1577 8.22059 12.2326C8.2621 12.3075 8.32287 12.3699 8.39661 12.4134C8.47036 12.4569 8.55439 12.4798 8.64 12.4799H11.04C11.1036 12.4808 11.1668 12.4691 11.2258 12.4454C11.2848 12.4216 11.3385 12.3864 11.3838 12.3418C11.4291 12.2971 11.4651 12.2439 11.4896 12.1852C11.5142 12.1265 11.5268 12.0635 11.5268 11.9999C11.5268 11.9363 11.5142 11.8733 11.4896 11.8146C11.4651 11.756 11.4291 11.7027 11.3838 11.6581C11.3385 11.6134 11.2848 11.5782 11.2258 11.5545C11.1668 11.5308 11.1036 11.519 11.04 11.5199H9.50531L11.4469 8.41398C11.4922 8.34134 11.5172 8.25791 11.5194 8.17232C11.5216 8.08674 11.5009 8.00213 11.4594 7.92725C11.4179 7.85237 11.3571 7.78995 11.2834 7.74647C11.2096 7.70298 11.1256 7.68 11.04 7.67992H8.64ZM14.3925 9.11336C14.3138 9.11475 14.2366 9.13549 14.1677 9.17374C14.0989 9.212 14.0406 9.2666 13.9978 9.33273C13.759 9.20158 13.4897 9.11992 13.2 9.11992C12.2778 9.11992 11.52 9.87777 11.52 10.7999C11.52 11.7221 12.2778 12.4799 13.2 12.4799C13.4894 12.4799 13.7582 12.398 13.9969 12.2671C14.0534 12.3546 14.1369 12.4213 14.2347 12.4572C14.3325 12.493 14.4393 12.4961 14.539 12.4659C14.6387 12.4358 14.7259 12.374 14.7874 12.2899C14.8489 12.2059 14.8814 12.1041 14.88 11.9999V10.7999V9.59992C14.8809 9.5357 14.8689 9.47196 14.8447 9.41247C14.8205 9.35298 14.7846 9.29895 14.7391 9.25358C14.6937 9.20821 14.6396 9.17242 14.58 9.14833C14.5205 9.12425 14.4567 9.11236 14.3925 9.11336ZM18.48 9.11992C17.5578 9.11992 16.8 9.87777 16.8 10.7999C16.8 11.7221 17.5578 12.4799 18.48 12.4799C19.4022 12.4799 20.16 11.7221 20.16 10.7999C20.16 9.87777 19.4022 9.11992 18.48 9.11992ZM13.2 10.0799C13.6033 10.0799 13.92 10.3966 13.92 10.7999C13.92 11.2033 13.6033 11.5199 13.2 11.5199C12.7967 11.5199 12.48 11.2033 12.48 10.7999C12.48 10.3966 12.7967 10.0799 13.2 10.0799ZM18.48 10.0799C18.8833 10.0799 19.2 10.3966 19.2 10.7999C19.2 11.2033 18.8833 11.5199 18.48 11.5199C18.0767 11.5199 17.76 11.2033 17.76 10.7999C17.76 10.3966 18.0767 10.0799 18.48 10.0799Z"
+                                fill="black"></path>
+                            <path
+                                d="M4.32 1.91992C3.00023 1.91992 1.92 3.00015 1.92 4.31992V19.6799C1.92 20.9997 3.00023 22.0799 4.32 22.0799H19.68C20.9998 22.0799 22.08 20.9997 22.08 19.6799V4.31992C22.08 3.00015 20.9998 1.91992 19.68 1.91992H4.32ZM4.32 2.87992H7.47656C5.81666 4.60701 4.8 6.87526 4.8 9.35992C4.8 11.9334 5.88871 14.2792 7.65562 16.0265C7.5914 15.9653 7.67454 16.0717 7.68281 16.2599C7.69134 16.4542 7.66209 16.7212 7.58344 16.9855C7.42613 17.5143 7.09711 18.0017 6.56812 18.178C6.46765 18.2115 6.38107 18.2773 6.32187 18.3651C6.26266 18.4529 6.23416 18.5578 6.24079 18.6635C6.24742 18.7692 6.28882 18.8698 6.35854 18.9495C6.42826 19.0292 6.52238 19.0836 6.62625 19.1043C7.95091 19.3692 8.8879 18.9704 9.57844 18.6534C10.269 18.3363 10.6421 18.123 11.34 18.4049L11.3456 18.4068C12.6523 18.9176 14.091 19.1999 15.6 19.1999C17.6147 19.1999 19.503 18.6965 21.12 17.819V19.6799C21.12 20.4808 20.4809 21.1199 19.68 21.1199H4.32C3.51913 21.1199 2.88 20.4808 2.88 19.6799V4.31992C2.88 3.51905 3.51913 2.87992 4.32 2.87992ZM8.87812 2.87992H19.68C20.4809 2.87992 21.12 3.51905 21.12 4.31992V16.7062C19.5489 17.67 17.6518 18.2399 15.6 18.2399C14.2129 18.2399 12.8945 17.9804 11.7 17.5143C10.6857 17.1046 9.85955 17.4677 9.17812 17.7805C8.80908 17.95 8.44498 18.0908 8.03344 18.1687C8.23704 17.8784 8.4112 17.5683 8.50312 17.2593C8.61173 16.8942 8.65588 16.5367 8.64187 16.2177C8.62791 15.8998 8.60013 15.6087 8.33156 15.3449L8.33062 15.344C6.72812 13.7593 5.76 11.6633 5.76 9.35992C5.76 6.80508 6.95336 4.50598 8.87812 2.87992ZM15.8325 7.19336C15.7054 7.19535 15.5842 7.2477 15.4956 7.33892C15.407 7.43014 15.3583 7.55278 15.36 7.67992V11.9999C15.3591 12.0635 15.3708 12.1267 15.3946 12.1857C15.4183 12.2447 15.4535 12.2984 15.4982 12.3437C15.5428 12.389 15.596 12.425 15.6547 12.4496C15.7134 12.4741 15.7764 12.4868 15.84 12.4868C15.9036 12.4868 15.9666 12.4741 16.0253 12.4496C16.084 12.425 16.1372 12.389 16.1818 12.3437C16.2265 12.2984 16.2617 12.2447 16.2854 12.1857C16.3091 12.1267 16.3209 12.0635 16.32 11.9999V7.67992C16.3209 7.6157 16.3089 7.55196 16.2847 7.49247C16.2605 7.43298 16.2246 7.37895 16.1791 7.33358C16.1337 7.28821 16.0796 7.25242 16.02 7.22833C15.9605 7.20425 15.8967 7.19236 15.8325 7.19336ZM8.64 7.67992C8.57639 7.67902 8.51324 7.69077 8.45422 7.71449C8.39519 7.73821 8.34147 7.77342 8.29617 7.81808C8.25088 7.86275 8.21491 7.91597 8.19036 7.97465C8.1658 8.03333 8.15316 8.09631 8.15316 8.15992C8.15316 8.22353 8.1658 8.28651 8.19036 8.3452C8.21491 8.40388 8.25088 8.4571 8.29617 8.50176C8.34147 8.54642 8.39519 8.58163 8.45422 8.60535C8.51324 8.62907 8.57639 8.64082 8.64 8.63992H10.1747L8.23312 11.7459C8.18782 11.8185 8.16277 11.9019 8.16057 11.9875C8.15837 12.0731 8.17909 12.1577 8.22059 12.2326C8.2621 12.3075 8.32287 12.3699 8.39661 12.4134C8.47036 12.4569 8.55439 12.4798 8.64 12.4799H11.04C11.1036 12.4808 11.1668 12.4691 11.2258 12.4454C11.2848 12.4216 11.3385 12.3864 11.3838 12.3418C11.4291 12.2971 11.4651 12.2439 11.4896 12.1852C11.5142 12.1265 11.5268 12.0635 11.5268 11.9999C11.5268 11.9363 11.5142 11.8733 11.4896 11.8146C11.4651 11.756 11.4291 11.7027 11.3838 11.6581C11.3385 11.6134 11.2848 11.5782 11.2258 11.5545C11.1668 11.5308 11.1036 11.519 11.04 11.5199H9.50531L11.4469 8.41398C11.4922 8.34134 11.5172 8.25791 11.5194 8.17232C11.5216 8.08674 11.5009 8.00213 11.4594 7.92725C11.4179 7.85237 11.3571 7.78995 11.2834 7.74647C11.2096 7.70298 11.1256 7.68 11.04 7.67992H8.64ZM14.3925 9.11336C14.3138 9.11475 14.2366 9.13549 14.1677 9.17374C14.0989 9.212 14.0406 9.2666 13.9978 9.33273C13.759 9.20158 13.4897 9.11992 13.2 9.11992C12.2778 9.11992 11.52 9.87777 11.52 10.7999C11.52 11.7221 12.2778 12.4799 13.2 12.4799C13.4894 12.4799 13.7582 12.398 13.9969 12.2671C14.0534 12.3546 14.1369 12.4213 14.2347 12.4572C14.3325 12.493 14.4393 12.4961 14.539 12.4659C14.6387 12.4358 14.7259 12.374 14.7874 12.2899C14.8489 12.2059 14.8814 12.1041 14.88 11.9999V10.7999V9.59992C14.8809 9.5357 14.8689 9.47196 14.8447 9.41247C14.8205 9.35298 14.7846 9.29895 14.7391 9.25358C14.6937 9.20821 14.6396 9.17242 14.58 9.14833C14.5205 9.12425 14.4567 9.11236 14.3925 9.11336ZM18.48 9.11992C17.5578 9.11992 16.8 9.87777 16.8 10.7999C16.8 11.7221 17.5578 12.4799 18.48 12.4799C19.4022 12.4799 20.16 11.7221 20.16 10.7999C20.16 9.87777 19.4022 9.11992 18.48 9.11992ZM13.2 10.0799C13.6033 10.0799 13.92 10.3966 13.92 10.7999C13.92 11.2033 13.6033 11.5199 13.2 11.5199C12.7967 11.5199 12.48 11.2033 12.48 10.7999C12.48 10.3966 12.7967 10.0799 13.2 10.0799ZM18.48 10.0799C18.8833 10.0799 19.2 10.3966 19.2 10.7999C19.2 11.2033 18.8833 11.5199 18.48 11.5199C18.0767 11.5199 17.76 11.2033 17.76 10.7999C17.76 10.3966 18.0767 10.0799 18.48 10.0799Z"
+                                stroke="black" stroke-width="0.2" mask="url(#path-1-outside-1_6394_301594)"></path>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="f_sub_infor four_item d_flex">
+                <div class="f_item">
+                    <p class="r_main">Chính sách</p>
+                    <div class="item_sub ">
+                        <a href="">Chính sách và quy định</a>
+                        <a href="">Quy chế hoạt động</a>
+                        <a href="">Bảo mật thông tin</a>
+                        <a href="">Giải quyết tranh chấp</a>
+                    </div>
+                </div>
+                <div class="f_item">
+                    <p class="r_main">Tìm Hiểu Thêm</p>
+                    <div class="item_sub">
+                        <a href="">Hướng dẫn chung</a>
+                        <a href="">Hướng dẫn đặt xe</a>
+                        <a href="">Hướng dẫn thanh toán</a>
+                        <a href="">Hỏi và trả lời</a>
+                    </div>
+                </div>
+                <div class="f_item">
+                    <p class="r_main"></p>
+                    <div class="item_sub">
+                        <a href="">Về Mioto</a>
+                        <a href="">Mioto Blog</a>
+                        <a href="">Tuyển dụng</a>
+                    </div>
+                </div>
+                <div class="f_item">
+                    <p class="r_main">Đối Tác</p>
+                    <div class="item_sub">
+                        <a href="">Đăng ký chủ xe Mioto</a>
+                        <a href="">Đăng ký GPS MITRACK 4G</a>
+                        <a href="">Đăng ký cho thuê xe dài hạn MICAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line_page f_line"></div>
+    </div>
+</body>
+<script src="/js/car_regis_detail.js"></script>
+</html>

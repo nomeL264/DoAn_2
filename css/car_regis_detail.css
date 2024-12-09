@@ -1,0 +1,237 @@
+.regis_form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form_bottom_2{
+    display: none;
+}
+.form_content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form_top,.form_bottom_1,.form_bottom_2,.form_bottom_3{
+    background-color: var(--white-color);
+}
+.regis_tittle{
+    margin-top: 30px;
+
+}
+.form_top {
+    display: flex
+;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 10px;
+    padding: 30px 0px;
+}
+.switch_btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    font-size: 1.3rem;
+    gap: 10px;
+    cursor: pointer;
+    color: var(--green-color);
+    text-decoration: none;
+}
+.switch_btn:not(:last-child)::after {
+    content: '';
+    height: 1px;
+    background-color: var(--green-color);
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    right: -25%;
+}
+
+.form_top .btn span {
+    padding: 1px 6px;
+    border-radius: 100%;
+    width: 10px;
+    height: 5px;
+}
+.btn_1{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.btn .btn_2,.btn_3{
+    background-color: rgb(211, 214, 214);
+    color: rgb(222, 227, 227);
+}
+.tittle_2,.tittle_3{
+    color: var(--line-color);
+}
+.form_bottom_1,.form_bottom_2,.form_bottom_3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box_tittle{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.box_note{
+    font-size: 1.5rem;
+    line-height: 1.25;
+    color: red;
+}
+.car_infor{
+    display: flex;
+    justify-content: space-between;
+}
+input,option,select{
+    width: 260px;
+    height: 20px;
+    padding: 12px 20px;
+    border: 1px solid var(--line-color);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.small_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.small_box_tittle{
+    font-size: 1.5rem;
+    line-height: 1.25;
+    
+}
+.note{
+    font-size: 1.5rem;
+    color: var(--line-color);
+}
+textarea{
+    height: 70px;
+    font-size: 1.5rem;
+    text-align: left;
+    border: 0.5px solid var(--line-color);
+    border-radius: 10px;
+    padding: 17px 20px;
+}
+textarea::placeholder{
+    color: var(--line-color);
+}
+.feature_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col_1,.col_2,.col_3{
+    width: 31%;
+}
+.for_ckb{
+    position: relative;
+}
+input[type=checkbox]{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top:0;
+    left: 0;
+    visibility: hidden;
+}
+input[type=checkbox]:checked + label .feature{
+    border-color: var(--green-color);
+
+}
+.feature{
+    border: 0.5px solid var(--line-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.feature img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.icon_name{
+    font-size: 1.5rem;
+    font-weight: 370;
+}
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.two_btn{
+    width: 48%;
+    border: 0.5px solid var(--line-color);
+    border-radius: 10px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn_back{
+    background-color: var(--white-color);
+    color: var(--line-color);
+}
+.btn_next{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.btn_next:hover{
+    font-size: 2.2rem;
+}
+/* ----------forrm_2------------ */
+.price_small_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+#loaction_default{
+    width: 70%;
+}
+
+/* -------------form_3---------- */
+#upload{
+    width: 60%;
+    height: 40px;
+}
+/* ---------success ----------- */
+.form_success{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+ padding: 20px 20px;
+}
+.success_box{
+    width: 50%;
+    height: 100px;
+    display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 20px;
+ background-color: aliceblue;
+ justify-content: center;
+}
+.big_tittle{
+    font-size: 2rem;
+}

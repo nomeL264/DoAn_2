@@ -1,0 +1,45 @@
+/* ------------chọn địa điểm thuê------------ */
+.finding_head{
+    margin: 20px 0 0;
+}
+.find_infor{
+    font-size: 1.8rem;
+    justify-content: center;
+    gap: 25px;
+}
+.location,.calender{
+    align-items: center;
+    gap: 8px;
+}
+.find_tag{
+    margin: 20px 0;
+    gap: 10px;
+    justify-content:center;
+
+}
+.find_tag_tex{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 1.4rem;
+    border: 1px solid var(--smoke-color);
+    border-radius: 24px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+.cars {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.car {
+    padding: 16px;
+    background-color: var(--white-color);
+    border-radius: 14px;
+    flex-direction: column;
+    width: 28%;
+    text-decoration: none;
+    cursor: pointer;
+}

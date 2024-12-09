@@ -1,0 +1,270 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "img": "../img/Trangchu_img/car_1.jpg",
+        "img_1": "../img/Trangchu_img/car_2.jpg",
+        "img_2": "../img/Trangchu_img/car_3.jpg",
+        "img_3": "../img/Trangchu_img/car_4.jpg",
+        "discount_amount": 10,
+        "name": "Honda CR-V 2022",
+        "tags": ["Số tự động", "Giao xe tận nơi"],
+        "address": "Quận 1, TP.Hồ Chí Minh",
+        "rating": 4.8,
+        "trip_number": 25,
+        "price": 800000,
+        "insurance_p":90000,
+        "unit": "ngày",
+        "seat_num":4,
+        "fuel_type":"xăng",
+        "car_desc":"Honda CR-V 2022",
+        "newest_price":700000
+      },
+      {
+        "id": 2,
+        "img": "../img/Trangchu_img/car_2.jpg",
+        "discount_amount": 13,
+        "name": "VINFAST VF E34 2022",
+        "tags": ["Số tự động", "Giao xe tận nơi"],
+        "address": "Quận 4, TP.Hồ Chí Minh",
+        "rating": 5.0,
+        "trip_number": 3,
+        "price": 550000,
+        "unit": "ngày"
+      },
+      {
+        "id": 3,
+        "img": "../img/Trangchu_img/car_3.jpg",
+        "discount_amount": 5,
+        "name": "Toyota Fortuner 2021",
+        "tags": ["4WD", "Giao xe tận nơi"],
+        "address": "Quận 5, TP.Hồ Chí Minh",
+        "rating": 4.7,
+        "trip_number": 10,
+        "price": 900000,
+        "unit": "ngày"
+      },
+      {
+        "id": 4,
+        "img": "../img/Trangchu_img/car_3.jpg",
+        "discount_amount": 20,
+        "name": "Mazda CX-5 2022",
+        "tags": ["Số tự động", "Động cơ mạnh mẽ"],
+        "address": "Quận 2, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.9,
+        "trip_number": 15,
+        "price": 750000,
+        "unit": "ngày"
+      },
+      {
+        "id": 5,
+        "img": "../img/car_img/rBOKehZ1Pt4Cl1Bi47cWBw.jpg",
+        "discount_amount": 12,
+        "name": "Hyundai Tucson 2023",
+        "tags": ["Tiết kiệm nhiên liệu", "Giao xe tận nơi"],
+        "address": "Quận 7, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.6,
+        "trip_number": 8,
+        "price": 720000,
+        "unit": "ngày"
+      },
+      {
+        "id": 6,
+        "img": "../img/car_img/0TqRZ-KqrmnfUrhPDsJJsA.jpg",
+        "discount_amount": 8,
+        "name": "Kia Sorento 2021",
+        "tags": ["4WD", "Chạy địa hình"],
+        "address":  "Quận 3, TP.Hồ Chí Minh",
+        "rating": 4.5,
+        "trip_number": 30,
+        "price": 850000,
+        "unit": "ngày"
+      },
+      {
+        "id": 7,
+        "img": "../img/car_img/mddyYAyz7Lp7_IRa8LuvrQ.jpg",
+        "discount_amount": 15,
+        "name": "Ford Ranger 2022",
+        "tags": ["Chạy địa hình", "Bán tải"],
+        "address":  "Quận 6, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.7,
+        "trip_number": 20,
+        "price": 950000,
+        "unit": "ngày"
+      },
+      {
+        "id": 8,
+        "img": "../img/Trangchu_img/car_1.jpg",
+        "discount_amount": 25,
+        "name": "Chevrolet Trailblazer 2021",
+        "tags": ["SUV", "Giao xe tận nơi"],
+        "address": "Quận 8, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.4,
+        "trip_number": 12,
+        "price": 650000,
+        "unit": "ngày"
+      },
+      {
+        "id": 9,
+        "img": "../img/Trangchu_img/car_2.jpg",
+        "discount_amount": 18,
+        "name": "Mitsubishi Outlander 2023",
+        "tags": ["Số tự động", "Chạy đường dài"],
+        "address":"Quận 10, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.6,
+        "trip_number": 5,
+        "price": 780000,
+        "unit": "ngày"
+      },
+      {
+        "id": 10,
+        "img": "../img/car_img/rBOKehZ1Pt4Cl1Bi47cWBw.jpg",
+        "discount_amount": 10,
+        "name": "Nissan X-Trail 2021",
+        "tags": ["SUV", "Giao xe tận nơi"],
+        "address": "Quận 11, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.3,
+        "trip_number": 18,
+        "price": 700000,
+        "unit": "ngày"
+      },
+      {
+        "id": 11,
+        "img": "../img/Trangchu_img/car_2.jpg",
+        "discount_amount": 8,
+        "name": "Audi Q5 2020",
+        "tags": ["Sang trọng", "4WD"],
+        "address":"Quận 9, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.8,
+        "trip_number": 35,
+        "price": 1300000,
+        "unit": "ngày"
+      },
+      {
+        "id": 12,
+        "img": "../img/car_img/U7QTPljOpV3YHCjVyJczGg.jpg",
+        "discount_amount": 20,
+        "name": "BMW X3 2022",
+        "tags": ["Sang trọng", "Số tự động"],
+        "address": "Quận 12, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.9,
+        "trip_number": 40,
+        "price": 1500000,
+        "unit": "ngày"
+      },
+      {
+        "id": 13,
+        "img": "../img/car_img/mddyYAyz7Lp7_IRa8LuvrQ.jpg",
+        "discount_amount": 15,
+        "name": "Lexus RX 2022",
+        "tags": ["Sang trọng", "Số tự động"],
+        "address": "Quận Tân Bình, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.7,
+        "trip_number": 28,
+        "price": 1700000,
+        "unit": "ngày"
+      },
+      {
+        "id": 14,
+        "img": "../img/Car_detail_img/car_detail_small2.jpg",
+        "discount_amount": 10,
+        "name": "Porsche Cayenne 2021",
+        "tags": ["Sang trọng", "4WD"],
+        "address": "Quận Tân Phú, TP.Hồ Chí Minh"
+        ,
+        "rating": 5.0,
+        "trip_number": 50,
+        "price": 2000000,
+        "unit": "ngày"
+      },
+      {
+        "id": 15,
+        "img": "../img/Car_detail_img/car_detail_small3.jpg",
+        "discount_amount": 18,
+        "name": "Mercedes-Benz GLC 2022",
+        "tags": ["Sang trọng", "Số tự động"],
+        "address": "Quận Bình Thạnh, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.9,
+        "trip_number": 30,
+        "price": 1800000,
+        "unit": "ngày"
+      },
+      {
+        "id": 16,
+        "img": "../img/car_img/U7QTPljOpV3YHCjVyJczGg.jpg",
+        "discount_amount": 5,
+        "name": "Toyota Camry 2020",
+        "tags": ["Sedan", "Số tự động"],
+        "address": "Quận Phú Nhuận, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.6,
+        "trip_number": 45,
+        "price": 1200000,
+        "unit": "ngày"
+      },
+      {
+        "id": 17,
+        "img": "../img/Trangchu_img/car_1.jpg",
+        "discount_amount": 25,
+        "name": "Mazda 6 2021",
+        "tags": ["Sedan", "Tiết kiệm nhiên liệu"],
+        "address":  "Quận Gò Vấp, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.4,
+        "trip_number": 22,
+        "price": 900000,
+        "unit": "ngày"
+      },
+      {
+        "id": 18,
+        "img": "../img/Trangchu_img/car_1.jpg",
+        "discount_amount": 10,
+        "name": "Ford Ecosport 2020",
+        "tags": ["SUV", "Tiết kiệm nhiên liệu"],
+        "address": "Quận Bình Tân, TP.Hồ Chí Minh"
+        ,
+        "rating": 4.2,
+        "trip_number": 17,
+        "price": 600000,
+        "unit": "ngày"
+      },
+      {
+        "id": 19,
+        "img": "../img/Trangchu_img/car_2.jpg",
+        "discount_amount": 15,
+        "name": "Nissan Sunny 2021",
+        "tags": ["Sedan", "Giao xe tận nơi"],
+        "address":"Quận Cầu Giấy, Hà Nội"
+        ,
+        "rating": 4.3,
+        "trip_number": 19,
+        "price": 650000,
+        "unit": "ngày"
+      },
+      {
+        "id": 20,
+        "img": "../img/car_img/0TqRZ-KqrmnfUrhPDsJJsA.jpg",
+        "discount_amount": 30,
+        "name": "Honda Civic 2023",
+        "tags": ["Sedan", "Số tự động"],
+        "address": "Quận Hoàng Mai, Hà Nội"
+        ,
+        "rating": 4.8,
+        "trip_number": 12,
+        "price": 850000,
+        "unit": "ngày"
+      }
+     
+    ]
+  }
+  

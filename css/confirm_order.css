@@ -1,0 +1,112 @@
+.infor_container{
+   margin: 0 28px;
+}
+.infor_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.confirm_form{
+    width: 70%;
+    border: 0.5px solid var(--smoke-color);
+    border-radius: 14px;
+    padding: 10px 10px;
+}
+.form_tittle {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--green-color);
+}
+.form_text{
+    display: flex;
+    gap: 20px;
+    height:60%;
+}
+.form_left{
+    flex: 2;
+    display: flex;
+    gap: 20px;
+}
+.form_right{
+    flex: 1;
+}
+.img_car{
+    flex: 1;
+}
+.img_car img{
+   width: 100%;
+   border: 0.5px solid var(--smoke-color);
+   border-radius: 12px;
+}
+.car_infor{
+    padding: 10px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.infor_name{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.date_infor{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.date,.small_tittle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--smoke-color);
+}
+.infor{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.form_right{
+    padding: 68px 0;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price_infor{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.total_tittle p{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.end_form_text{
+    color: var(--green-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.btn{
+    text-align: right;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.exit_btn{
+    background-color: var(--green-color);
+   border-color: var(--green-color);
+   border-radius: 5px;
+   color: var(--white-color);
+   font-size: 1.4rem;
+   font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 50px;
+
+
+}
+

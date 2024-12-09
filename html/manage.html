@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý cửa hàng</title>
+    <link rel="stylesheet" href="../css/manage.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body >
+    <div class="nav_bar">
+        <ul class="nav_top d-flex">
+            <li class="sub_nav">
+                <a href="#" class="admin">Adminstrator</a>
+            </li>
+            <li class="sub_nav">
+                <a href="" class="go_web">Vào trang web</a>
+            </li>
+            <li class="sub_nav">
+                <a href="" class="contact">Liên hệ</a>
+            </li>
+            <li>
+                <a href="" class="mange_user tittle-1">Thống kê</a>
+            </li>
+           
+        </ul>
+    </div>
+    <div class="body d-flex">
+        <div class="menu_left ">
+            <ul class="big_ul">
+                <li class="tittle-1">
+                    <a href="" class="manage_home">Trang chủ Admin</a>
+                   
+                </li>
+                <li class="tittle-1 p-relative">
+                    <a href="" class="mange_cate  " >Quản trị danh mục</a>
+                    <ul class="sub_menu-1 p-absolute">
+                        <li>
+                            <a href="" class="cates">Loại danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="products">Sản phẩm</a>
+                        </li>
+                        <li>
+                            <a href="" class="post">Bài viết</a>
+                        </li>
+                    </ul>
+                </li>
+                <li  class=" tittle-2 p-relative">
+                    <a href="" class="mange_infor tittle-1">Quản trị giao diện</a>
+                    <ul class="sub_menu-2 p-absolute">
+                        <li>
+                            <a href="">Quản trị thông tin</a>
+                        </li>
+                        <ul class="sub_sub_menu   p-absolute">
+                            <li>
+                                <a href="" class="list_order">Danh sách đơn hàng</a>
+                            </li>
+                            <li>
+                                <a href="" class="cus_contact">Khách hàng liên hệ</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="mange_cus tittle-1">Quản trị khách hàng</a>
+                </li>
+                <li>
+                    <a href="" class="seo_web tittle-1">SEO Website</a>
+                </li>
+                <li>
+                    <a href="" class="mange_user tittle-1">Duyệt xe</a>
+                </li>
+                <li>
+                    <a href="" class="mange_user tittle-1">Quản trị người dùng</a>
+                </li>
+                <li>
+                    <a href="" class="mange_user tittle-1">Quản trị Khiếu nại</a>
+                </li>
+               
+            </ul>
+        </div>
+        <div class="container_right">
+            <div class="nav">
+                <ul class=" nav_text d-flex ">
+                    <li>
+                        <a href="" style="color: #787878;">Trang chủ Admin</a>
+                    </li>
+                    <li class="d-flex">
+                        <a href="" style="color: #787878;" class="d-flex">Quản trị danh mục</a>
+                    </li>
+                     <li class="d-flex">
+                        <a href="" style="color:black" >Sản phẩm</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container_right_top d-flex">
+                <div class="find">
+                    <input type="text" placeholder="Tìm kiếm...">
+                </div>
+                <div class="show_all">
+                    <select name="" id="">
+                        <option value="">Hiển thị tất cả</option>
+                        <option value="">Hiển thị theo loại xe</option>
+                        <option value="">Hiển thị theo hãng xe</option>
+                    </select>
+                </div>
+                <button class="add_product">Thêm mới</button>
+            </div>
+            <table border="1">
+                <tr style="font-size: 13px;">
+                    <th><input type="checkbox" name="" id="ckb" ></th>
+                    <th >STT</th>
+                    <th>Danh mục</th>
+                    <th>Tiêu đề</th>
+                    <th>Ảnh</th>
+                    <th>Nổi bật</th>
+                    <th>Mới</th>
+                    <th>Hiển thị</th>
+                    <th>Tác vụ</th>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>0</th>
+                    <th>4 chỗ</th>
+                    <th>VINFAST VF5 2024</th>
+                    <th>
+                        <img src="../img/car_img/4cho_1.jpg" class="p_img">
+                    </th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th >
+                        <img src="../img/manage_img/cross-small.png" alt="">
+                        <img src="../img/manage_img/pen-circle.png" alt="">
+                    </th>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>1</th>
+                    <th>7 chỗ</th>
+                    <th>VINFAST VF5 2024</th>
+                    <th>
+                        <img src="../img/car_img/7cho_2.jpg" class="p_img">
+                    </th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th >
+                        <img src="../img/manage_img/cross-small.png" alt="">
+                        <img src="../img/manage_img/pen-circle.png" alt="">
+                    </th>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>2</th>
+                    <th>4 chỗ</th>
+                    <th>HYUNDAI I10 2016</th>
+                    <th>
+                        <img src="../img/car_img/4cho_2.jpg" class="p_img">
+                    </th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th >
+                        <img src="../img/manage_img/cross-small.png" alt="">
+                        <img src="../img/manage_img/pen-circle.png" alt="">
+                    </th>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>3</th>
+                    <th>7 chỗ</th>
+                    <th>KIA SORENTO SIGNATURE 2018</th>
+                    <th>
+                        <img src="../img/car_img/7cho_1.jpg" class="p_img">
+                    </th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th >
+                        <img src="../img/manage_img/cross-small.png" alt="">
+                        <img src="../img/manage_img/pen-circle.png" alt="">
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="char_container">
+            <div class="char_1">
+                <canvas id="line_chart" width="400" height="200"></canvas>/div>
+            <div class="chart_2">
+                <canvas id="doughtnut_chart" width="400" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="../js/char.js"></script> -->
+</body>
+</html>

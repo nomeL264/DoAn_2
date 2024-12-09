@@ -1,0 +1,47 @@
+.head-page{
+    display: flex;
+    gap:10px;
+    padding: 20px 0 80px;
+}
+.head_page_right{
+    width: 440px;
+    font-size: 6.5rem;
+    line-height: 72px;
+    font-weight: 600;
+}
+.head_page_left{
+    flex: 1;
+    font-size: 1.8rem;
+    line-height: 28px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.first_img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.bottom_page{
+    display: flex;
+    padding: 80px 0;
+    gap:30px
+}
+.intro-container__info h2{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.intro-container__info p{
+    font-size: 1.8rem;
+    line-height: 28px;
+}
+.bottom_page_left{
+    display: flex;
+   align-items: center;
+}
+.bottom_page_left img{
+    height: 80%;
+}
